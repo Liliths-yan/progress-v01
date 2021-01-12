@@ -116,9 +116,12 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+   /* border-bottom: 1px dashed #c1d0e2;*/
+
 }
 .flex-price > div {
     padding: 7px 30px 0 0;
+
 }
 
 .wrapper {
@@ -256,10 +259,12 @@ h4 {
 .flex-info-title,
 .flex-table-arrow > div {
     padding: 7px 30px;
+    b
 }
 
 .flex-table-arrow {
     background: #f5f8fd;
+
     display: flex;
 
     flex-wrap: nowrap;
@@ -268,6 +273,7 @@ h4 {
     color: #272727;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+
 }
 /*-----ARROW------*/
 
@@ -276,7 +282,7 @@ h4 {
     align-self: end;
     justify-content: end;
     margin: 10px;
-
+    border-bottom: 1px dashed #c1d0e2; /**/
     cursor: pointer;
 }
 
@@ -303,9 +309,9 @@ a.arrow-right:hover {
 
 /*-----------*/
 .flex-technic-img {
-    height: 239px;
+     height: 239px;
     width: 319px;
-    margin: 0 auto;
+    margin: 0 56px;
 }
 
 .tech-price-item-card {

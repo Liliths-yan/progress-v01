@@ -93,8 +93,8 @@
 }
 
 .main-bottom-inner-column {
-  justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
 .main-bottom-contact {
@@ -433,6 +433,17 @@ h3 {
     color: #007bff;
     border-bottom: 1px dotted #0052b5;
 }
-.techic-table-wrap {display: block;position: relative;}
-.technic-subtable {display: block; position: absolute; width: 100%; left: 0; top:0;}
-.technic-subtable.open {position: relative;}
+.techic-table-wrap {
+    display: block;
+    position: relative;
+}
+.technic-subtable {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.technic-subtable.open {
+    position: relative;
+}
