@@ -1,0 +1,51 @@
+.header {
+    /*Убирает отступ*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 74px;
+    background-color: rgba(12, 14, 19, 0.5);
+}
+
+.header-menu {
+    /*Расположение меню справа*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.header-menu:hover {
+    cursor: pointer;
+}
+
+/*Description*/
+
+.header-inner {
+    /*Расположение слева*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-description {
+    background-color: #0052b5;
+    text-align: center;
+    padding: 22px 45px 22px 45px;
+}
+
+.header-description-text {
+    font-size: 19px;
+    font-weight: 300;
+    color: #f6f6f6;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-menu-li-link {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+    padding: 0 13px 0 13px;
+}
+/*END  HEADER*/
