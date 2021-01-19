@@ -1,0 +1,20 @@
+.main-bottom-button {
+    background: $button-bg;
+    display: flex;
+    border: 0;
+    height: 48px;
+    color: #fcfcfc !important;
+    font-size: 18px;
+    padding: 11px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    filter: brightness(100%);
+    text-decoration: none !important;
+    transition: all 200ms;
+}
+
+.main-bottom-button:hover {
+    background: $button-bg;
+    filter: brightness(110%);
+    cursor: pointer;
+}
