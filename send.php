@@ -1,17 +1,13 @@
 <?php
 
 if (empty($_POST['name']) || empty($_POST['phone'])  )  {
-    echo json_encode(array('error' => 'Error!'));
+    echo json_encode(array('error' => 'Ошибка! Обратитесь к администратору сайта через email'));
     exit;
 }
 
-//if (empty($_POST['select-check'])  )  {
-    //echo json_encode(array('check' => 'check'));
-   // exit;
-//}
 
 $email = 'lilit.work@yandex.ru';
-$title = "Заявка c сайта site";
+$title = "Заявка c сайта";
 $from = 'site';
 $text = 'Информация:
 
@@ -25,7 +21,7 @@ if (mail($email, $title, $text, "Content-type:text/plain; charset = utf-8\r\nFro
     echo json_encode(array('status' => 1));
 	exit;
 } else {
-    echo json_encode(array('error' => 'Не отправлено'.$mail->ErrorInfo));
+    echo json_encode(array('error' => 'Ошибка! Обратитесь к администратору сайта через email'.$mail->ErrorInfo));
 }
 
 
